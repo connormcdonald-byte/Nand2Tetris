@@ -7,8 +7,7 @@ Each project builds on the former; the bulk of the work starts at project 6. The
 2. Arithmetic gates for the ALU
 3. Memory Hardware (registers, RAM)
 4. Machine Language
-5. Create the computer (uses the Von Neumann architecture)
-6. Design the assembler, one layer of abstraction above binary code.
-
-Use a VM (virtual machine) layer as a bridge between the high-language level (JACK) and the lower level machine code. 
-7,8. 
+5. Create the computer platform (uses the Von Neumann architecture)
+6. Design the assembler, one layer of abstraction above machine language (binary).
+7,8.  Design a VM (virtual machine) layer as a bridge between the high-language level (JACK) and the lower level machine code. The choice of VM avoids hardware specific programming. 
+10,11. Design a compiler that translates from JACK to VM code.
